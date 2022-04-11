@@ -1,0 +1,187 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+#main{
+	height: 100vh;
+	background: url("img/logo2.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.bg{
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.3);
+}
+.bg2{
+	height: 20vh;
+	background: rgba(0, 0, 0, 0.3);
+}
+.bg3{
+	height: 200px;
+	width: 200px;
+	background: rgba(0, 0, 0, 0.3);
+	position: relative;
+	bottom: 20px;
+	border-radius: 10px;
+}
+.h1{
+	position: relative;
+	top: 250px;
+}
+
+.h1 h1{
+	color: white;
+	font-family: sans-serif;
+	font-size: 150px;
+	text-align: center;
+	user-select: none;
+}
+.h1 h4{
+	text-transform: capitalize;
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
+	user-select: none;
+}
+.sh h3{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	font-family: sans-serif;
+}
+#main2{
+	height: 20vh;
+	background: url("img/logo.png");
+	background-image: url("img/vedhalam.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#main3{
+	height: 100vh;
+	background: url("img/logo.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.content{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.song{
+	height: 200px;
+	width: 200px;
+	border: 2px solid white;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 10px;
+	background-image: url("img/p3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+.song h2{
+	font-family: sans-serif;
+	color: white;
+	margin-top: 20px;
+}
+.song h3{
+	font-family: sans-serif;
+	color: white;
+	margin-top: 10px;
+}
+.song h4{
+	font-family: sans-serif;
+	color: white;
+	margin-top: 10px;
+}
+.song audio{
+	height: 50px;
+	width: 170px;
+	position: relative;
+	left: 5px;
+	top: 30px;
+}
+.song:nth-child(1){
+	background-image: url("img/vedhalam.jpg");
+}
+.song:nth-child(2){
+	background-image: url("img/aa.jpg");
+}
+.song:nth-child(3){
+	background-image: url("img/tn.jpg");
+}
+.song:nth-child(4){
+	background-image: url("img/paiya.jpg");
+}
+
+.song:nth-child(5){
+	background-image: url("img/thuppaki.jpg");
+}
+.song:nth-child(6){
+	background-image: url("img/ko.jpg");
+}
+
+.song:nth-child(7){
+	background-image: url("img/nanban.jpg");
+}
+
+.song:nth-child(8){
+	background-image: url("img/doctor.jpg");
+}
+
+.song:nth-child(9){
+	background-image: url("img/pokkiri.jpg");
+}
+
+.song:nth-child(10){
+	background-image: url("img/pudhu.jpg");
+}
+
+.song:nth-child(11){
+	background-image: url("img/vv.jpg");
+}
+
+.song:nth-child(12){
+	background-image: url("img/kaala.jpg");
+}
+
+.song:nth-child(13){
+	background-image: url("img/darbar.jpg");
+}
+
+.song:nth-child(14){
+	background-image: url("img/96.jpg");
+}
+
+.song:nth-child(15){
+	background-image: url("img/petta.jpg");
+}
+
+@media only screen and (max-width: 700px){
+	.h1 h1{
+		font-size: 100px;
+	}
+
+	#main3{
+		background-size: cover;
+		height: 20vh;
+		background-color: black;
+		resize: both;
+	}
+}
+
